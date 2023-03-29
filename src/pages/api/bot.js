@@ -29,11 +29,11 @@ const generateResponse = async (req, res) => {
     " Genres should always be searched using like statements and wildcards"
     " Queries relating to shows must use tvSeries and tvMiniSeries in the titleType"
     " Queries relating to movies must use tvMovie and moviein the titleType"
-    " Only show the following columns in the final output 
-     primaryTitle,startYear,runtimeMinutes,genres,averageRating,numVotes"
+    " Only show the following columns in the final output Title,Year,Runtime,Genres,Rating,Votes,Link"
     " Always order all queries by r.numVotes DESC"
     " Always LIMIT queries to a max of 15 unless a lower value is specified"
     " Always apply DISTINCT to all queries to ensure no duplicates"
+    " Always join to the ratings and language tables"
     
     Example Response:
     
