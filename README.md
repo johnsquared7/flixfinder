@@ -1,4 +1,5 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<img width="728" alt="image" src="https://github.com/johnsquared7/flixfinder/assets/119292884/17c4a656-1cd9-4ee5-a628-fac49d2557fa">
+
 
 ## Getting Started
 
