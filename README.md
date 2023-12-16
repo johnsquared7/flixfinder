@@ -7,4 +7,4 @@ First, run the development server:
 ```bash
 npm run dev
 ```
-You will also need to host your own version of the IMDB database found here - https://datasets.imdbws.com/ and repoint the mysql server details.
+You will also need to host your own version of the IMDB database found here - https://datasets.imdbws.com/ and repoint the mysql server details in src/pages/api/executeSql.js.
